@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.js';
 import Hero from './components/Hero.js';
 import HeadLineCards from './components/HeadLineCards.js';
 import Food from './components/Food.js';
+import Category from './components/Category.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Hero />
      <HeadLineCards />
      <Food />
+     <Category />
     </div>
   );
 }
