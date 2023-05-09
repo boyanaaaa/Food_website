@@ -42,7 +42,7 @@ function Food() {
                     <img src={item.image} className='w-full h-[200px] object-cover rounded-t-lg' />
                     <div className='flex justify-between p-4'>
                         <p className='font-bold'>{item.name}</p>
-                        <p><span className='bg-orange-500 text-whiute p-1 rounded-full p-1'>{item.price}</span></p>
+                        <p><span className='bg-orange-500 text-whiute p-1 rounded-full'>{item.price}</span></p>
                     </div>
                 </div>
             ))}
